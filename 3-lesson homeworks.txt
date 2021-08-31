@@ -1,0 +1,89 @@
+# 1-function
+x = "apples"
+def fruit():
+    print("I like " + x)
+fruit() 
+
+
+# 2-function
+def math(x):
+    
+    return (x**2) + x + 3 
+
+print(math(24))
+print(math(68))
+print(math(128))
+
+# 3-function
+# calculate speed of car 
+s = 100
+def speed(t):
+    v = s/t
+    # s = 100 kilometr, unchangable value
+    # t is given in hours
+    print(round(v))
+    y = round(v)
+    print(f"The speed of car is {y} km/h") 
+speed(2)
+speed(8)
+
+# 4-function
+# exchange of dollar to sum today 29th of August 2021
+def sum(y):
+    x = y * 10640.07
+   # x = sum
+   # y = dollar
+    print(round(x))
+sum(25)
+
+
+# 5-function
+# exchange of dollar to sum today 29th of August 2021
+def dollar_sum():
+    y = 10640.07
+    x = int(input("Enter sums in numbers: "))
+    z = x * y 
+       
+    print(f"{x} dollar will be {z} sums")
+dollar_sum()
+
+
+# 6-function
+def choose_profession(your_major):
+   print("This is "+  your_major)
+choose_profession("programmer")
+
+# 7-function
+
+def name_clients(name):
+    for x in name:
+     print(x)
+
+males = ["Sobir", "Akmal", "Umid", "Jalol"]
+females = ["Oygul", "Gulchekhra", "Nilufar"]
+name_clients(males)
+name_clients(females)
+
+# 8-function
+def ifelse(a,b):
+    if a < b: print("True")
+    
+    else: print("False")
+    
+ifelse(52, 84)
+
+
+# 9-function
+def structure(a):
+    if a != 0: print("True")
+          
+    else: return a + 87
+    
+structure(0)
+
+# 10-function
+
+def my_name(firstname, lastname):
+    print("I am " + firstname + lastname)
+
+my_name("Sanobar ", "Akbarova")
